@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>FORMULAIRE</title>
+	<!--lien pour css-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+	<nav class="navbar">
+		<img class="imgbar" src="image/lymard.jpg" width="60" height="60">
+		
+		<a class="navbar-brand" href="INDEX.html">
+			<p class="iutea">YOBOUE Lymard</p>
+		</a> 
+	<div>
+		<button class="btm btn-primary"><a href="index.html">ACCUEIL</a></button>
+		<button class="btd btn-primary"><a href="cv.html">CURRICULUM VITAE</a></button>
+		<button class="btc btn-primary"><a href="formulaire.html">FORMULAIRE</a></button>
+	</div>
+		
+    </nav>
+	
+	<!--ajouter de div . ces div sont ecrits dans le css en mettant id="contenu"-->
+	<div id="contenu">
+	<h2 class="marg" style="color: white"; align="center">FORMULAIRE </h2>
+	<hr>
+	<!--pour mettre cela en php(lien)-->
+	<form method="post" action="enregistrement.php">
+	nom :<br>
+	 <input type="text" name="nom" placeholder="entrez votre nom ici">
+	<br><br>
+	prenom :<br>
+	 <input type="text" name="prenom" placeholder="entrez votre prenom">
+	<br><br>
+	genre: <br>
+	
+	<select class="form-control" id="exampleformcontrolselect1">
+			<option>--------------</option>
+			<option>Masculin</option>
+				<option>Feminin</option>
+						<!--fin du choix-->
+		</select>
+		<br>
+		email : <br>
+	<input type="email" name="email" placeholder="abc@gmail.com">
+	<br><br>
+	mot de passe :<br>
+	<input type="password" name="mdp" placeholder="8 chiffres">
+	<br><br>
+	<input type="submit" name="envoyer" value="Enregistrer-vous">				
+
+	</form>
+
+	</div>
+	
+	</div>
+	<div id="footer">
+
+	<p>This is a playground landing page</p>
+
+
+</div>
+
+</body>
+</html>

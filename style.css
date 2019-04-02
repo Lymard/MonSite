@@ -1,0 +1,99 @@
+/*pour la page formulaire*/
+#contenu{
+	background: blue;
+	height:550px;
+	width: 750px;
+	border: solid;
+	border-radius: 10px;
+	border-color: purple;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	margin-bottom: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	 position: relative;
+	 top: -40px;
+ }
+ /*pour la page index.html*/
+ body{
+
+ 	margin: auto 0 ;
+ 	background: rgb(194 196 199) !important;
+ }
+ .navbar{
+ 	background: purple;
+ 	padding: 25px !important;
+ 	
+ }
+
+ a{
+ 	text-decoration: none;
+
+ }
+
+.text{
+	border: 3px solid gray;
+	border-radius: 30px;
+	box-shadow: 5px 10px 4px purple;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+ .imgbar{
+ 	position: relative;
+  left: 10px;
+  border-radius:12px;
+  /*top: 18px;*/
+ }
+ .iutea{
+
+ position: relative;
+  
+  right: 443px;
+  top: 50px;
+ }
+
+ }
+ .nav{
+ 	float: right;
+ 	position: relative;
+ 	bottom: 120px;
+ }
+ 
+ a{
+ 	color: white !important;
+ 	text-decoration: none !important;
+ }
+ h1{
+ 	text-align: center;
+ }
+h6{
+	text-align: center;
+}
+ #footer{
+	padding: 30px;
+	position: relative;
+	top: 450px;
+	background: rgb(30,30,30);
+	text-align: center;
+	color: lightgrey;
+
+}
+/*pour le cv*/
+.formation{
+    position: relative;
+    left: 150px;
+    bottom: 95px;
+}
+
+.cv{
+	border: solid 3px;
+	position: relative;
+	top: 50px ;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
